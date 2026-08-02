@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 15px;
+}
+    .calculator {
+  width: 320px;
+  max-width: 100%;
+  background-color: #1e1e1e;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 2px 2px 2px 2px  black;
+}
+.display {
+  background-color: #2a2a2a;
+  color: white;
+  font-size: 40px;
+  text-align: left;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+  .btn {
+  height:50px;
+  border-radius:50%;
+  border:none;
+  padding:10px;
+  cursor:pointer;
+font-size:24px;
+ transition: transform 0.1s ease;
+}
+.btn:hover{
+    transform: scale(0.9);
+}
+[id="+"],[id="-"],[id="*"],[id="/"],[id="Escape"]{
+    background-color: pink;
+}
+[id="0"], [id="1"], [id="2"], [id="3"], [id="4"],
+[id="5"], [id="6"], [id="7"], [id="8"], [id="9"],[id="."] {
+  background-color: skyblue;
+}
+#Enter{
+background-color:rgb(199, 199, 235)
+}
+#Backspace{
+     background-color: pink;
+}
+#open-brace,#close-brace,#sqrt,#log{
+    background-color: pink;
+}
+@media (max-width: 480px) {
+    .calculator{
+        width: 100%;
+        padding: 15px;
+    }
+    .display{
+        font-size: 32px;
+        padding: 15px;
+    }
+    .btn{
+        height: 45px;
+        font-size: 20px;
+    }
+}
+@media (max-width: 360px) {
+    .display{
+        font-size: 26px;
+        padding: 12px;
+    }
+    .btn{
+        height: 40px;
+        font-size: 18px;
+        padding: 6px;
+    }
+    .buttons{
+        gap: 6px;
+    }
+}
