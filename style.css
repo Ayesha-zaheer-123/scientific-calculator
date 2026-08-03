@@ -64,6 +64,7 @@ background-color:rgb(199, 199, 235)
 #open-brace,#close-brace,#sqrt,#log{
     background-color: pink;
 }
+/*added responsiveness */
 @media (max-width: 480px) {
     .calculator{
         width: 100%;
