@@ -7,7 +7,6 @@ This project was created to practice JavaScript fundamentals, DOM manipulation, 
 ---
 
 ## ✨ Features
-
 - Perform basic arithmetic operations:
   - Addition (+)
   - Subtraction (−)
@@ -70,5 +69,5 @@ This project was built to practice:
 
 ---
 
-## 👩‍💻 Author
+##  Author
 **Ayesha Zaheer**
