@@ -53,6 +53,7 @@ git clone https://github.com/Ayesha-zaheer-123/scientific-calculator.git
 cd scientific-calculator
 ```
 
+
 ### Run the project
 Open the `index.html` file in your preferred web browser.
 
