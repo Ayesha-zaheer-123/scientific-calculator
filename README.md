@@ -1,4 +1,4 @@
-# 🧮 Scientific Calculator
+#  Scientific Calculator
 
 A responsive **Scientific Calculator** built with **HTML, CSS, and JavaScript**. The application performs basic arithmetic operations along with additional scientific functions such as logarithm and square.
 
@@ -6,7 +6,7 @@ This project was created to practice JavaScript fundamentals, DOM manipulation, 
 
 ---
 
-## ✨ Features
+##  Features
 
 - Perform basic arithmetic operations:
   - Addition (+)
@@ -22,7 +22,7 @@ This project was created to practice JavaScript fundamentals, DOM manipulation, 
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - HTML5
 - CSS3
@@ -30,7 +30,7 @@ This project was created to practice JavaScript fundamentals, DOM manipulation, 
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 scientific-calculator/
@@ -41,7 +41,7 @@ scientific-calculator/
 ```
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Clone the repository
 ```bash
@@ -59,7 +59,7 @@ Open the `index.html` file in your preferred web browser.
 
 ---
 
-## 🎯 Learning Objectives
+##  Learning Objectives
 
 This project was built to practice:
 - JavaScript fundamentals
@@ -71,5 +71,5 @@ This project was built to practice:
 
 ---
 
-## 👩‍💻 Author
+##  Author
 **Ayesha Zaheer**
